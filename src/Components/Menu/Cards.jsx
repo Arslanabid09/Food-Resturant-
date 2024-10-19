@@ -5,7 +5,7 @@ import {Button} from '../../Components';
 const Cards = ({data}) => {
   return (
         <div
-          className="max-w-sm bg-white rounded-lg overflow-hidden relative shadow-lg"
+          className="max-w-sm  bg-white rounded-lg overflow-hidden  relative shadow-lg"
         >
           <img
             className="rounded-t-lg object-cover w-full h-48 transition-transform duration-300 ease-in-out hover:scale-110 shadow-md"

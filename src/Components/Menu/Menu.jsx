@@ -10,7 +10,7 @@ const Menu = () => {
         <p className='italic md:text-lg  w-3/4 md:w-1/2 mx-auto'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique nemo corporis voluptates quisquam obcaecati eveniet.</p>
       </div>
       {/* cards */}
-      <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 place-items-center mx-auto">
+      <div className="container  px-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 place-items-center mx-auto">
       {mockData.map((item) => (
         <Cards key={item.id} data={item} />
       ))}
