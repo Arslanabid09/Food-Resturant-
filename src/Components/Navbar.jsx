@@ -20,7 +20,7 @@ const Navbar = () => {
     >
       <FaBars />
     </span>
-    https://food-resturant-omega.vercel.app/
+
     {/* Navbar for Large Screens */}
     <nav className='hidden md:flex flex-col items-center'>
       <ul className='flex gap-16 items-center'>
